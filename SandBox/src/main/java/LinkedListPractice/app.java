@@ -68,6 +68,10 @@ public class app {
         lList.add(3);
         lList.add(3);
         lList.add(4);
+        lList.add(4);
+        lList.add(4);
+        lList.add(4);
+        lList.add(4);
         lList.printAll();
         lList.removeDuplicatesFromSorted();
         lList.printAll();
@@ -89,8 +93,10 @@ public class app {
 
 
         // sorting
-        System.out.println("sort descending");
+        System.out.println("sort descending Before");
+
         clone1.printAll();
+        System.out.println("sort descending After");
         clone1.sortDescending();
         clone1.printAll();
 

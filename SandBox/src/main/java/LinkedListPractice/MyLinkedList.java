@@ -252,7 +252,7 @@ public class MyLinkedList {
         }
         Node curr = this.head;
         MyLinkedList clone = new MyLinkedList();
-        while (curr!=null) {
+        while (this.size!=0) {
             //find max
             int max = this.findMax();
             //add to new
@@ -260,7 +260,6 @@ public class MyLinkedList {
             //delete max
             this.deleteFirstNodeWithNum(max);
         }
-        curr = curr.next= tail;
         head = clone.head;
 
     }
