@@ -25,14 +25,18 @@ public class TreeApp {
 //        System.out.println("postorder");
 //        tree.postOrderTraversal(tree.root);
 //        System.out.println();
+        //System.out.println(tree.contains(0));
 
 
+        System.out.println(tree.isLeaf(tree.root.leftChild.leftChild.leftChild.rightChild));
+        System.out.println((tree.root.leftChild.leftChild.leftChild.rightChild.value));
+        System.out.println("print leaves");
+        tree.printLeaves(tree.root);
 
-        //Breadth First
-        System.out.println(BreadthFirst.bfPrint(tree));
+        System.out.println("count leaves: " + tree.countLeaves(tree.root));
 
-
-
+        System.out.println("tree.findSumOfLeaves(tree.root) = " + tree.findSumOfLeaves(tree.root));
+        System.out.println("Height " + tree.height(tree.root));
 
 
     }
