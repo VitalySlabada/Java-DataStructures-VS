@@ -9,8 +9,5 @@ public class LInkedListApp {
             list1.add(i);
         }
         list1.printNodes();
-
-
-
     }
 }
