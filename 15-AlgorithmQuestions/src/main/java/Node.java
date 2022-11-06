@@ -1,10 +1,7 @@
 public class Node {
-    Node leftChild;
-    Node rightChild;
     int value;
+    Node next;
 
-    public Node() {
-    }
     public Node(int value) {
         this.value = value;
     }
